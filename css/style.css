@@ -1,6 +1,6 @@
 body {
-    background: url(../img/resort.jpg) no-repeat ;
-    background-size: 100%; 
+    background: url(../img/resort.jpg) no-repeat fixed;
+    background-size: 100%;
 }
 
 .header {
@@ -20,10 +20,19 @@ body {
 }
 
 .header__link {
-    display: block;
     padding: 10px 20%;
-    text-decoration: none;
     font-size: 2rem;
+}
+
+.header__link,
+.item__link {
+    display: block;
+}
+
+.header__link,
+.header__heading,
+.main__link,
+.item__link {
     color: brown;
 }
 
@@ -33,7 +42,6 @@ body {
 
 .header__heading {
     padding: 10px 15% 10px 5%;
-    color: brown;
     font-size: 2.5rem;
 }
 
@@ -49,4 +57,34 @@ body {
 
 .item__img {
     width: 100%;
+}
+
+.item__img:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.main__link {
+    font-size: 1.5rem;
+    margin-left: 4%;
+}
+
+.main__link,
+.item__link,
+.header__link {
+    text-decoration: none;
+}
+
+.main__link:hover {
+    color: rgb(226, 43, 43);
+}
+
+.item__link {
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(223, 199, 62);
+}
+
+.item__link:hover {
+    background-color: rgb(182, 160, 37);
 }
