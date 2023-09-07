@@ -16,7 +16,7 @@ body {
 
 .header,
 .main {
-    background-color: azure;
+    background-color: rgb(224, 224, 224);
 }
 
 .header__link {
