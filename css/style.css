@@ -9,7 +9,6 @@ body {
 }
 
 .header,
-.header__menu,
 .main__container,
 .footer {
     display: flex;
@@ -21,26 +20,15 @@ body {
     background-color: rgb(224, 224, 224);
 }
 
-.header__link {
-    padding: 10px 20%;
-    font-size: 2rem;
-}
-
-.header__link,
 .item__link {
     display: block;
 }
 
-.header__link,
 .header__heading,
 .main__link,
 .item__link,
 .footer__heading {
     color: brown;
-}
-
-.header__link:hover {
-    background-color: darkcyan;
 }
 
 .header__heading {
