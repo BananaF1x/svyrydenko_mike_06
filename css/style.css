@@ -10,12 +10,14 @@ body {
 
 .header,
 .header__menu,
-.main__container {
+.main__container,
+.footer {
     display: flex;
 }
 
 .header,
-.main {
+.main,
+.footer {
     background-color: rgb(224, 224, 224);
 }
 
@@ -32,7 +34,8 @@ body {
 .header__link,
 .header__heading,
 .main__link,
-.item__link {
+.item__link,
+.footer__heading {
     color: brown;
 }
 
@@ -50,7 +53,8 @@ body {
     width: 80%;
 }
 
-.container__item {
+.container__item,
+.footer__container {
     width: 30%;
     margin: 2%;
 }
@@ -75,7 +79,8 @@ body {
     text-decoration: none;
 }
 
-.main__link:hover {
+.main__link:hover,
+.footer__text--mod:hover {
     color: rgb(226, 43, 43);
 }
 
@@ -87,4 +92,9 @@ body {
 
 .item__link:hover {
     background-color: rgb(182, 160, 37);
+}
+
+.footer__heading {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
 }
