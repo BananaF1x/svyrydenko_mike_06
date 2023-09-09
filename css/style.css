@@ -1,41 +1,41 @@
-body {
+/* 1 */ body { 
     background: url(../img/resort.jpg) no-repeat fixed;
     background-size: 100%;
 }
 
-.header {
+/* 10 */ .header {
     width: 100%;
     position: sticky;
     top: 0;
 }
 
-.header,
+/* 10 */ .header,
 .main__container,
 .footer,
 .header__nav {
     display: flex;
 }
 
-.header__nav {
+/* 10 */ .header__nav {
     width: 65%;
 }
 
-.header,
+/* 10 */ .header,
 .main,
 .footer,
 .header__nav--mod {
     background-color: rgb(224, 224, 224);
 }
 
-.item__link,
+/* 10 */ .item__link,
 .nav__item,
 .header__main__link,
 .main__text,
-.nav__item--mod:hover .header__nav--mod {
+/* 30 */ .nav__item--mod:hover .header__nav--mod {
     display: block;
 }
 
-.header__heading,
+/* 10 */ .header__heading,
 .main__link,
 .item__link,
 .footer__heading,
@@ -45,60 +45,60 @@ body {
     color: brown;
 }
 
-.header__heading,
+/* 10 */ .header__heading,
 .header__main__link {
     width: 35%;
     margin: 10px 0 10px 4%;
     font-size: 2.5rem;
 }
 
-.header__nav--mod {
+/* 10 */ .header__nav--mod {
     width: 80%;
     display: none;
     position: absolute;
 }
 
-.nav__item,
+/* 10 */ .nav__item,
 .nav__item--mod {
     width: 24%;
     margin:15px auto;
 }
 
-.nav__item--mod {
+/* 10 */ .nav__item--mod {
     position: relative;
 }
 
-.header__link,
+/* 10 */ .header__link,
 .additional__heading {
     font-size: 2rem;
 }
 
-.main {
+/* 10 */ .main {
     margin: 0 auto;
     width: 80%;
 }
 
-.container__item,
+/* 10 */ .container__item,
 .footer__container {
     width: 30%;
     margin: 2%;
 }
 
-.item__img {
+/* 10 */ .item__img {
     width: 100%;
 }
 
-.item__img:hover {
+/* 20 */ .item__img:hover {
     transform: scale(1.1);
     transition: all 1s;
 }
 
-.main__link {
+/* 10 */ .main__link {
     font-size: 1.5rem;
     margin-left: 4%;
 }
 
-.main__link,
+/* 10 */ .main__link,
 .item__link,
 .header__link,
 .header__link--mod,
@@ -106,7 +106,7 @@ body {
     text-decoration: none;
 }
 
-.main__link:hover,
+/* 20 */ .main__link:hover,
 .footer__text--mod:hover,
 .header__link:hover,
 .header__link--mod:hover,
@@ -115,40 +115,40 @@ body {
     text-decoration: underline;
 }
 
-.item__link {
+/* 10 */ .item__link {
     width: fit-content;
     padding: 10px;
     background-color: rgb(223, 199, 62);
     white-space: nowrap;
 }
 
-.item__link:hover {
+/* 20 */ .item__link:hover {
     background-color: rgb(182, 160, 37);
 }
 
-.footer__heading {
+/* 10 */ .footer__heading {
     font-size: 1.1rem;
     padding-bottom: 10px;
 }
 
-.main__heading {
+/* 10 */ .main__heading {
     font-size: 3rem;
 }
 
-.main__heading,
+/* 10 */ .main__heading,
 .additional__heading {
     text-align: center;
 }
 
-.container__img {
+/* 10 */ .container__img {
     overflow: hidden;
 }
 
-.main__list {
+/* 10 */ .main__list {
     list-style-type:disc;
 }
 
-.main__text,
+/* 10 */ .main__text,
 .main__list {
     padding: 15px 0 50px 3%;
 }
