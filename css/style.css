@@ -22,7 +22,8 @@ body {
 
 .header,
 .main,
-.footer {
+.footer,
+.header__nav--mod {
     background-color: rgb(224, 224, 224);
 }
 
@@ -35,7 +36,8 @@ body {
 .main__link,
 .item__link,
 .footer__heading,
-.header__link {
+.header__link,
+.header__link--mod {
     color: brown;
 }
 
@@ -46,13 +48,19 @@ body {
 }
 
 .header__nav--mod {
+    width: 80%;
     display: none;
+    position: absolute;
 }
 
 .nav__item,
 .nav__item--mod {
     width: 24%;
     margin:15px auto;
+}
+
+.nav__item--mod {
+    position: relative;
 }
 
 .nav__item--mod:hover .header__nav--mod {
@@ -90,21 +98,24 @@ body {
 
 .main__link,
 .item__link,
-.header__link {
+.header__link,
+.header__link--mod {
     text-decoration: none;
 }
 
 .main__link:hover,
 .footer__text--mod:hover,
-.header__link:hover {
+.header__link:hover,
+.header__link--mod:hover {
     color: rgb(226, 43, 43);
     text-decoration: underline;
 }
 
 .item__link {
-    width: 30%;
+    width: fit-content;
     padding: 10px;
     background-color: rgb(223, 199, 62);
+    white-space: nowrap;
 }
 
 .item__link:hover {
