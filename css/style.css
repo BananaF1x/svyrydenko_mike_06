@@ -28,7 +28,8 @@ body {
 }
 
 .item__link,
-.nav__item {
+.nav__item,
+.header__main__link {
     display: block;
 }
 
@@ -37,11 +38,13 @@ body {
 .item__link,
 .footer__heading,
 .header__link,
-.header__link--mod {
+.header__link--mod,
+.header__main__link {
     color: brown;
 }
 
-.header__heading {
+.header__heading,
+.header__main__link {
     width: 35%;
     margin: 10px 0 10px 4%;
     font-size: 2.5rem;
@@ -99,14 +102,16 @@ body {
 .main__link,
 .item__link,
 .header__link,
-.header__link--mod {
+.header__link--mod,
+.header__main__link {
     text-decoration: none;
 }
 
 .main__link:hover,
 .footer__text--mod:hover,
 .header__link:hover,
-.header__link--mod:hover {
+.header__link--mod:hover,
+.header__main__link:hover {
     color: rgb(226, 43, 43);
     text-decoration: underline;
 }
