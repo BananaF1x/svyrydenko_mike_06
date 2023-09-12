@@ -84,7 +84,8 @@
     margin: 2%;
 }
 
-/* 10 */ .item__img {
+/* 10 */ .item__img,
+.main__picture img {
     width: 100%;
 }
 
@@ -117,6 +118,7 @@
 
 /* 10 */ .item__link {
     width: fit-content;
+    margin-top: 15px;
     padding: 10px;
     background-color: rgb(223, 199, 62);
     white-space: nowrap;
@@ -151,4 +153,9 @@
 /* 10 */ .main__text,
 .main__list {
     padding: 15px 0 50px 3%;
+}
+
+.main__picture {
+    margin: 0 auto;
+    width: 50%;
 }
